@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: gaming;
+    src: url("images/uncracked-font/UncrackedFreeTrial-X3WjK.otf")
+}
+body {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-family: gaming;
+    font-size: 100px;
+    color: floralwhite;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+#btn{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height:50px;
+    font-family: gaming;
+    font-size: 30px;
+    color: floralwhite;
+    background-color: transparent;
+}
+
+#result{
+    
+    position: absolute;
+    top: 75%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: gaming;
+    font-size: 70px;
+    color: floralwhite;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+#pl1Img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    
+}
+#pl2Img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    right: 22%;
+}
+.pl2{
+    right: 25%;
+    position: absolute;
+    top: 20%;
+    font-family: gaming;
+    font-size: 30px;
+    color: floralwhite;
+}
+.pl1{
+    left: 25%;
+    position: absolute;
+    top: 20%;
+    font-family: gaming;
+    font-size: 30px;
+    color: floralwhite;
+    }
